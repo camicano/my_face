@@ -4,9 +4,27 @@
 	<link rel="stylesheet" href="/stylesheets/skeleton.css">
 	<link rel="stylesheet" href="/stylesheets/layout.css">
 	<link rel="stylesheet" href="/stylesheets/style.css">
+	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 </head>
-<body>
+<body  id="body" >
 	<div class="container">
+		<div id="header">
+			<i class="offset-by-five column icon-hand-right icon-large icon">
+		</i>
+		<div class="column four icon">
+			<h1 class="h1">Camila Cano</h1>
+		</div>
+		<i class="column icon-hand-left icon-large icon">
+		</i>
+	</div>
+	
+	<div class="row">
+		<a href='/contact'>
+			<img class="offset-by-eight column" src='./myface.jpg' />
+		</a>
+	</div>
+	
 	<%= yield %>
 	</div>
 </body>
